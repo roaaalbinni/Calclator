@@ -21,13 +21,12 @@ body{
  border-radius: 20px;
  /* التحكم بشادو الالة الحاسبة */
    box-shadow: 0 20px 60px #42051e; 
-
 }
 
 /* الخانة يلي بيظهر فيها الرقم  */
 .display{
     
-    background-color: #9eadaba6;
+    background-color: #cbe0dda6;
     padding: 20px;
      border-radius: 20px;
      /* الارقام بتظهر ع اليمين */
@@ -52,7 +51,7 @@ body{
     border: none;
     border-radius: 50%;
     background-color: #f0f3f7;
-    box-shadow: inset 5px 5px 10px #ccc, inset -5px -5px 10px #fff;
+    box-shadow:  5px 5px 10px #ccc;
      font-weight: bold;
      font-size: 24px;
 }
@@ -60,9 +59,4 @@ body{
 .btn button:hover{
     background-color: #e08db9;
 }
-.btn-equal{
-    grid-column: span 2;
-     border-radius: 40px;
-    background-color: #d12581;
-    
-}
+
