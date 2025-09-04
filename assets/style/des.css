@@ -1,3 +1,5 @@
+
+
 body{
     font-family:sans-serif;
     background-color: #5b3345;
@@ -55,8 +57,14 @@ body{
      font-weight: bold;
      font-size: 24px;
 }
-/* تغيير لون الزر بعد تمرير الماوس عليه */
-.btn button:hover{
+/* تنسيق زر اليساوي */
+#equal{
+    width: 150px;
+    border-radius: 30px;
     background-color: #e08db9;
 }
+/* تغيير لون الزر بعد تمرير الماوس عليه */
+ .btn button:hover{
+    background-color: #e08db9;
+} 
 
